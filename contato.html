@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+ <div class="principal">
+    
+    <h1>PORTFÓLIO PESSOAL</h1>
+
+    <nav class="menuprincipal"> 
+        <a href="sobremim.html" title="Sobre mim">Sobre mim</a> 
+        <a href="formacao.html" title="Formação">Formação</a>
+        <a href="portfolio.html" title="Portfólio">Portfólio</a>
+        <a href="contato.html" title="Contato">Contato</a>
+    </nav>
+
+    <main class="conteudoprincipal">
+        <h2>Contato</h2>
+
+        <div class="caixa">
+            <ul class="textos">
+            <p>Para entrar em contato, por favor utilizar o email abaixo:</p>
+                <li><a href="mailto:kaua.trabalhos001@gmail.com" title="kaua.trabalhos001@gmail.com">kaua.trabalhos001@gmail.com;</a></li> <!--Utilizar o comando "mailto" faz com que ao clicar no email, o dispositivo abra o app padrão  de email do celular-->
+            </ul>
+
+            <div class="textos">
+                <h2>Deixe sua mensagem</h2>
+                <form id="formulariocontato"><!--O form inicia o formulario, o id serve para que o Java encontre o formulario-->
+                    <label for="nome">Nome:</label> <!--Label da o nome para o rótulo, o for liga o conteudo digitado ao id-->
+                    <input type="text" id="nome"><!--Aqui digo que o tipo da entrada do usuário é texto e digo que ele pertence ao id nome, se repete para os demais itens do formulario-->
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email"> <!--Aqui ja verifica se o email é válido-->
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem"></textarea><!--Textarea permite varias linhas de texto, isso ajuda para criar essa função de mensagem-->
+                    <button type="submit">Enviar</button> <!--Cria o botão com a função de enviar o formulário-->
+
+                </form>
+            </div>
+        </div>
+    </main>
+<nav class="menuprincipal" >
+    <a href="portfolio.html" title="Retornar">Retornar</a>
+</nav>
+<script src="script.js"></script> <!--Conecta a pagina do JavaScript a essa página de HTML-->
+</body>
+</html>
