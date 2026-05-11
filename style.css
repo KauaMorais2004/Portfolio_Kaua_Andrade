@@ -27,6 +27,7 @@ h1{ /*Defino como quero o titulo principal*/
     justify-content: center; /*Centralizar*/
     gap: 20px;
     margin-bottom: 40px;
+    flex-wrap: wrap; /*Para se ajustar nas telas menores, como a do celular*/
 }
 .menuprincipal a{ /*Aqui é o container filho, aqui defino como quero cada botão*/
     text-decoration: none; /*Para remover o azul do link dos botões*/
